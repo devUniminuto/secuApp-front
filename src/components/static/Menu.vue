@@ -220,13 +220,6 @@ export default {
           hasSubmenus: false,
           submenu: [],
         },
-        {
-          icon: "mdi-chart-bar",
-          name: "Estadísticas",
-          url: "/estadisticas",
-          hasSubmenus: false,
-          submenu: [],
-        },
       ];
     } else if (localStorage.getItem("rol") == "ROLE_MODERADOR") {
       this.menuOptions = [
